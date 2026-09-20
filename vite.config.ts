@@ -18,6 +18,9 @@ function figmaAssetResolver() {
 
 export default defineConfig({
   base: '/psp/',
+  server: {
+    port: 1432,
+  },
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
