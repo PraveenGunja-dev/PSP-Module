@@ -20,6 +20,7 @@ export default defineConfig({
   base: '/psp/',
   server: {
     port: 1432,
+    host: '127.0.0.1',
   },
   plugins: [
     figmaAssetResolver(),
