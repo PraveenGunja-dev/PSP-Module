@@ -21,6 +21,7 @@ export default defineConfig({
   server: {
     port: 1432,
     host: '127.0.0.1',
+    allowedHosts: ['digitalized-dpr-uat.adani.com'],
   },
   plugins: [
     figmaAssetResolver(),
